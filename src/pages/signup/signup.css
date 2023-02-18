@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  background-color: #76b852;
+ }
+form {
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    width: 450px;
+    padding: 3%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+}
+input {
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: 0;
+    margin: 0 0 15px 0;
+  }
+
+.loginButton {
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 10px 0 0 0;
+}
+.check {
+    display: flex;
+}
+.link {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+span {
+  margin-left: 5px;
+}
+@media (max-width: 650px) {
+form {
+  width: 80%;
+}
+}
